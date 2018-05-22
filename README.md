@@ -1,1 +1,4 @@
 # Google Cloud Platform onBoarding
+
+
+[Slides](https://lp.google-mkto.com/rs/248-TPC-286/images/cp-emea-2018-onboard-copenhagen-q2-presentation.pdf?mkt_tok=eyJpIjoiTUdRNU9EVTVObVUzT1RNeCIsInQiOiJoN1NjT3RqNGVQYWFRN3JHUUx3S0Jhc1wvSkJ6RjE3dHhZT3JLVzRIRVwvNEUwSURsT1ExVGdkc2l4cGswVjBBejNXS2VpSzBCeUVta2lFRDBKY2NuVVpxOW5BVFV0OGZ3cTJoTTJuVkw5TmRSbUpSQXZoSWlKdDB4UlBzcWxKM1ZTdFJXVllER1V5TDduSWRpa2QwWWtPZz09In0%3D)
