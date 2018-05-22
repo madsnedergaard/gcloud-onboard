@@ -3,8 +3,6 @@
 > Notes from Google Cloud Platform onBoarding event
 > 22/05 2018
 
-[Slides](slides.pdf), [Q&A Survey](goo.gl/slides/4yg4mv)
-
 ---
 
 ## Why GCP
