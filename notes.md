@@ -15,6 +15,11 @@
   - Devs shouldn't have to manage amount of nodes
 
 
+### How does GCP fit with us?
+
+![flexibility](flexibility.png)
+
+
 ### Security
 
 Googles mantra:
@@ -33,13 +38,40 @@ Googles mantra:
 
 Docker vs Kubernetes?
 
+
 ---
 
-## GCP Usage
+## The gCloud architecture
+
+Offers everyting between fully managed to automated/dynamic "applications".
+
+1 is most manual managed infrastructure - 5 most automated/dynamic 
+
+1. Compute Engine: IaaS
+  - Google provide CPU, memory, disks - you decide what to do with it.
+  - Managed VMs
+  - High load? Spin up more VMs
+  - Google will automatically recommend optimal VM specs
+
+
+
+2. Kubernetes Engine
+3. 
+
+
+
+---
+
+## GCP Usage (getting started)
 
 - The Web Console has everything (including "terminal")
 - Mobile Apps are available too
 - Cloud Launcher makes deploying "stacks" much easier (such as LAMP stack or a WordPress stack)
+
+### Managing projects
+
+- Create new project for each environment (dev, staging, prod). This is **best practice**, but will also cost more.
+
 
 ---
 
