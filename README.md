@@ -3,7 +3,7 @@
 > Notes from Google Cloud Platform onBoarding event
 > 22/05 2018
 
-[Slides](https://lp.google-mkto.com/rs/248-TPC-286/images/cp-emea-2018-onboard-copenhagen-q2-presentation.pdf?mkt_tok=eyJpIjoiTUdRNU9EVTVObVUzT1RNeCIsInQiOiJoN1NjT3RqNGVQYWFRN3JHUUx3S0Jhc1wvSkJ6RjE3dHhZT3JLVzRIRVwvNEUwSURsT1ExVGdkc2l4cGswVjBBejNXS2VpSzBCeUVta2lFRDBKY2NuVVpxOW5BVFV0OGZ3cTJoTTJuVkw5TmRSbUpSQXZoSWlKdDB4UlBzcWxKM1ZTdFJXVllER1V5TDduSWRpa2QwWWtPZz09In0%3D), [Q&A Survey](goo.gl/slides/4yg4mv)
+[Slides](slides.pdf), [Q&A Survey](goo.gl/slides/4yg4mv)
 
 ---
 
@@ -182,6 +182,104 @@ Offers everyting between fully managed to automated/dynamic "applications".
 ![data-storage](data-storage-comparison.png)
 
 ![data storage tree](data-storage-tree.png)
+
+---
+
+### Big data & Machine learning
+
+#### 1. Pub/sub
+
+> Publish / subscribe management event queue
+
+- Can be sued to stream data on to Cloud Dataflow
+
+#### 2. Cloud Dataflow
+
+> Unified Data Processing
+
+- Batch computation, conversions, structuring data
+- Filtering, etc.
+
+#### 3. Cloud Dataproc
+
+> A managed service around services for processing big datasets
+
+- Hadoop, Spark, Pig and Hive services
+- Processing big datasets as a batch
+- Creating clusters fast
+- Scale clusters up and down while jobs are running
+- Cost-effective: Pay for what you use
+- Useful for migrating Hadoop jobs to cloud
+  - Twitter is using it for migrating **300PB** of data
+
+
+#### 4. BigQuery
+
+> Data warehouse for analytics
+
+- Petabyte-scale enterprise data warehouse for analytics
+- Only spinning up servers when being used (so no need to keep massive DBs running when not used)
+- Example: Querying 1pb table (3.000.000.000.000 rows) only takes 30 minutes
+- Some of the big industry players use it: Spotify, Twitter
+
+
+#### 5. Cloud Datalab
+
+> A managed service for data science notebooks
+
+- Exploratory interactive data science tool
+- Useful for training models (MI)
+- Integrating with [Jupyter](http://jupyter.org/) and leveraging exisiting Jupyter models
+
+---
+
+### Machine learning
+
+A field of AI. A fairly "old" thing, but has gotten all the attention now that we have more computation and neural networks.
+
+Machine learning requires:
+
+1. Large datasets
+2. Good models
+3. Lots of computation power
+
+
+#### Tools
+
+D-I-Y: 
+
+- TensorFlow and Cloud ML Engine for building machine learning models with your data
+- Or train model with Cloud AutoML and Google's models
+  - you bring the data (fx labeled images) and use the Google Vision model to train it. Evaluate and predict new images
+  - Example: recognising different kinds of clouds
+  - Great approach for getting started without being a super intelligent data scientist
+
+Or use fully-trained models as APIs provided by Google:
+
+- Cloud Vision
+- Cloud Speech
+- Cloud Translation
+- Cloud Natural Language
+- Cloud Video Intelligence
+- Cloud Data Prevention Loss
+
+---
+
+## Monitoring on GCP
+
+- The SRE (Site reliability Engineering) principle: Devs & sysOps agrees on balance
+- Stackdriver
+  - Monitoring
+    - Uptime & health checks
+    - Dashboards
+  - Logging
+    - Search, filter, export logs
+  - Error reporting
+  - Debugging
+    - makes debugging easier without hurting performance
+  - Tracing
+    - Latency reporting
+    - Per URL and statistics
 
 ---
 
