@@ -296,6 +296,10 @@ Or use fully-trained models as APIs provided by Google:
 
 - Forseti Security
 - Cloud Harmony
+- google cloud solutions
+- cloud.google.com/certification
+
+
 
 ---
 
