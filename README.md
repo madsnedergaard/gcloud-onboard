@@ -118,6 +118,10 @@ Google Cloud offers everyting between fully managed to automated/dynamic "applic
 
 #### 4. Cloud Endpoints (API)
 
+- Develop, deploy and manage APIs on any Google Cloud backend
+- Integrates well with APIGee
+- Bring your own API or use built-in Python based
+
 #### 5. Cloud functions
 
 - Completely serverless functions 
