@@ -63,9 +63,9 @@ Features:
 
 ### Computing Portfolio
 
-Offers everyting between fully managed to automated/dynamic "applications".
+Google Cloud offers everyting between fully managed to automated/dynamic "applications".
 
-1 is most manual managed infrastructure - 5 most automated/dynamic 
+![cloud-computing-portfolio](cloud-computing-portfolio.png)
 
 #### 1. Compute Engine: IaaS
 
