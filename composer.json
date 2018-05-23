@@ -1,0 +1,12 @@
+{
+    "name": "madsnedergaard/gcp",
+    "require": {
+        "php": "7.0"
+    },
+    "authors": [
+        {
+            "name": "Mads Nedergaard",
+            "email": "nedergaardmads@gmail.com"
+        }
+    ]
+}
