@@ -1,4 +1,5 @@
 runtime: php
+env: flex
 
 
 handlers:
