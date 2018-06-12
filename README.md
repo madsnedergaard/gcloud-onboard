@@ -7,7 +7,7 @@
 
 ## Why GCP
 
-- Best Network infrastruce in _the world_ (40% of all internet traffic!)
+- Best Network infrastructure in _the world_ (40% of all internet traffic!)
   - Entire network infrastructure is software-based, meaning no physical bottlenecks
   - Example: Pinging across continents takes 86ms, across countries takes 8ms, same country 0.3ms!!!
 - Powerful security: Google is the most targeted platform, so security is high priority and built in to everything
